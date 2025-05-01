@@ -38,7 +38,7 @@ public class LightBoard
     }
     if(lights[row][col]==true && lightsOn%2 == 0){
       return false; 
-    }else if(lights[row][col]==false && lightsOn%3 -- 0){
+    }else if(lights[row][col]==false && lightsOn%3 == 0){
       return true; 
     }else{
       return lights[row][col];
